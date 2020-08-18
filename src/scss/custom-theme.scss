@@ -1,0 +1,17 @@
+// change the theme
+$theme-colors: (
+  "primary": #462408,
+  "danger": #ff4136
+);
+
+.navbar {
+  .row{
+    float: right;
+    a {
+      margin: auto;
+    }
+  }
+}
+
+// Import Bootstrap and its default variables
+@import '~bootstrap/scss/bootstrap.scss';
